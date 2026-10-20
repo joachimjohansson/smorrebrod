@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b51f2b">
+  <meta name="description" content="Äkta danska smørrebrød på Berzeliigatan 13 i Göteborg. Ät här, ta med eller beställ till möten och event.">
+  <title>Helenes Smørrebrød — en bit Danmark i Göteborg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#hem" aria-label="Helenes Smørrebrød, startsidan">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span class="brand-name">Helenes<br><b>SMØRREBRØD</b></span>
+    </a>
+    <nav class="main-nav" aria-label="Huvudmeny">
+      <a href="#om">Om Helene</a>
+      <a href="menu.html">Menyn</a>
+      <a href="#foretag">Företag</a>
+      <a href="#hitta-hit">Hitta hit</a>
+      <a class="nav-phone" href="tel:+4631202080">Ring 031–20 20 80</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Öppna menyn"><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobilmeny">
+      <a href="#om">Om Helene</a><a href="menu.html">Menyn</a><a href="#foretag">Företag</a><a href="#hitta-hit">Hitta hit</a><a href="tel:+4631202080">Ring 031–20 20 80</a>
+    </nav>
+  </header>
+
+  <main id="hem">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="flag-mark" aria-hidden="true"></span> Bornholm möter Göteborg</p>
+        <h1>En bit<br>Danmark <em>mitt i stan.</em></h1>
+        <p class="intro">Äkta danska smørrebrød, gjorda med omsorg och generöst pålägg. Välkommen in för lunch eller ta med något gott på vägen.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="menu.html">Upptäck menyn <span aria-hidden="true">↗</span></a>
+          <a class="button button-phone" href="tel:+4631202080">Ring 031–20 20 80</a>
+        </div>
+        <p class="address-line"><span aria-hidden="true">⌖</span> Berzeliigatan 13, Göteborg</p>
+      </div>
+      <div class="hero-art">
+        <div class="hero-photo-frame"><img src="assets/helene-danish-flag.jpg" alt="Helene med Dannebrogen utanför Helenes Smørrebrød"></div>
+        <div class="hero-stamp"><span class="stamp-cross">✳</span><span>ÆGTE<br>DANSK<br>HYGGE</span></div>
+        <span class="photo-note">Hälsningar från Bornholm</span>
+      </div>
+    </section>
+
+    <section class="quick-info" aria-label="Öppettider och kontakt">
+      <div class="status-card"><span class="status-icon" aria-hidden="true">◷</span><div><b>Öppet för lunch</b><span>Måndag–fredag 11–15 · lördag 12–15</span></div></div>
+      <a class="info-card" href="tel:+4631202080"><span class="info-icon" aria-hidden="true">☎</span><span><small>Beställ eller boka</small><b>031–20 20 80</b></span></a>
+      <a class="info-card" href="https://maps.google.com/?q=Berzeliigatan+13,+412+53+Göteborg" target="_blank" rel="noreferrer"><span class="info-icon" aria-hidden="true">⌖</span><span><small>Mitt i Göteborg</small><b>Berzeliigatan 13</b></span></a>
+    </section>
+
+    <section class="menu-section" id="smorrebrod">
+      <div class="section-heading"><div><p class="eyebrow">Danskt rågbröd · rejält med pålägg</p><h2>Smag på Danmark<span class="red-dot">.</span></h2></div><a class="all-menus-link" href="menu.html">Se hela menyn <span aria-hidden="true">↗</span></a></div>
+      <div class="menu-grid">
+        <a class="menu-card menu-seafood" href="menu.html#havets-favoriter"><span class="menu-number">01</span><img class="food-photo" src="assets/smorrebrod-counter.jpg" alt="Smørrebrød med räkor, lax och klassiska danska pålägg"><span class="menu-card-bottom"><span><h3>Havets favoriter</h3><p>Räkor, lax och egenpanerad spätta</p></span><span class="arrow-circle" aria-hidden="true">↗</span></span></a>
+        <a class="menu-card menu-classic" href="menu.html#klassiker"><span class="menu-number">02</span><span class="card-illustration card-cross" aria-hidden="true"><span></span><i>✳</i></span><span class="menu-card-bottom"><span><h3>Danska klassiker</h3><p>Rejält, hemlagat och traditionellt</p></span><span class="arrow-circle" aria-hidden="true">↗</span></span></a>
+        <a class="menu-card menu-sweet" href="menu.html#fika"><span class="menu-number">03</span><span class="card-illustration card-heart" aria-hidden="true">♥</span><span class="menu-card-bottom"><span><h3>Kaffe & wienerbröd</h3><p>En liten stunds dansk hygge</p></span><span class="arrow-circle" aria-hidden="true">↗</span></span></a>
+      </div>
+      <p class="menu-note">Dagens erbjudande i restaurangen: två valfria smørrebrød med läsk eller lättöl.</p>
+    </section>
+
+    <section class="story-section" id="om">
+      <div class="story-photo"><img src="assets/helene-and-colleague.jpg" alt="Helene och en kollega i köket"></div>
+      <div class="story-copy"><p class="eyebrow">Från Rønne till Göteborg</p><h2>En dröm med<br>smak av hemma<span class="red-dot">.</span></h2><p>Helene flyttade från Rønne på Bornholm till Sverige 1988. Drömmen om en egen smørrebrödsbutik följde med, och när flytten gick till Göteborg 2011 kändes det rätt att låta göteborgarna få smaka på en bit Danmark.</p><p>Sedan 2014 serveras smørrebrød med danskt rågbröd och generöst med pålägg — precis som Helene själv tycker om dem.</p><a class="text-link" href="#hitta-hit">Kom förbi och säg hej <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="business-section" id="foretag">
+      <div class="business-copy"><p class="eyebrow">Ud af huset</p><h2>Gör mötet<br>lite godare<span class="red-dot">.</span></h2><p>Överraska kunder och kollegor med äkta danska smørrebrød till möten, konferenser och andra tillfällen. Utkörning kan ordnas — ring så berättar Helene mer och ger ett pris för leveransen.</p><a class="button button-light" href="tel:+4631202080">Prata företagsbeställning <span aria-hidden="true">↗</span></a></div>
+      <div class="business-photo"><img src="assets/smorrebrod-counter.jpg" alt="Välfylld disk med smørrebrød redo att serveras"><span class="business-badge">Lavet med<br>kærlighed <b>♥</b></span></div>
+    </section>
+
+    <section class="visit-section" id="hitta-hit">
+      <div class="visit-copy"><p class="eyebrow">Mitt emellan Götaplatsen och Scandinavium</p><h2>Vi ses på<br>Berzeliigatan<span class="red-dot">.</span></h2><p>Ta plats i restaurangen, slå dig ner en stund eller ta med dina favoriter. Här finns åtta sittplatser och kaffe till maten.</p><a class="text-link" href="https://maps.google.com/?q=Berzeliigatan+13,+412+53+Göteborg" target="_blank" rel="noreferrer">Hitta vägen <span aria-hidden="true">↗</span></a></div>
+      <div class="hours-card"><div class="hours-title"><span class="hours-clock" aria-hidden="true">◷</span><h3>Öppettider</h3></div><div class="hours-row"><span>Måndag–fredag</span><b>11.00–15.00</b></div><div class="hours-row"><span>Lördag</span><b>12.00–15.00</b></div><div class="hours-row"><span>Söndag & röda dagar</span><b>Stängt</b></div><p class="hours-note">Avvikande tider meddelas på <a href="https://www.facebook.com/pages/Helenes-Sm%C3%B6rrebr%C3%B8d-i-G%C3%B6teborg-AB/487831821336534" target="_blank" rel="noreferrer">Facebook</a>. Beställningar och bordsbokning görs per telefon under öppettiderna.</p><a class="button button-primary hours-call" href="tel:+4631202080">Ring 031–20 20 80</a></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#hem"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-name">Helenes<br><b>SMØRREBRØD</b></span></a><span>Berzeliigatan 13 · 412 53 Göteborg</span><a href="tel:+4631202080">031–20 20 80</a><a href="mailto:info@helenes-smorrebrod.se">info@helenes-smorrebrod.se</a><span>© <span id="year"></span> Helenes Smørrebrød AB</span></footer>
+</body>
+</html>
+
