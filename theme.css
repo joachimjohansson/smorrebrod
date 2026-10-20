@@ -1,0 +1,44 @@
+:root{--paper:#000;--ink:#f8f5f3;--muted:#c1b8b6;--red:#d31212;--red-dark:#a90f0f;--pale-red:#261314;--line:#393131;--white:#111;--cream:#151212;--gold:#e7c982;--display:"Chiron GoRound TC WS","Chiron GoRound TC",sans-serif;--body:"Chiron GoRound TC WS","Chiron GoRound TC",sans-serif}
+html,body{background:#000;color:#f8f5f3}
+body *{font-size:max(16px,1em)!important}
+body h1,body h2,body h3,body h4{font-family:var(--display)!important;font-weight:700!important}
+body h1{font-size:57px!important;line-height:1.04!important;letter-spacing:-.035em}
+body h2{font-size:32px!important;line-height:1.12!important;letter-spacing:-.025em}
+body h3,body h4,body .dish-price{font-size:20px!important;line-height:1.2!important;font-family:var(--display)!important;font-weight:700!important}
+.topbar,.footer{background:#000}
+.brand{gap:0}
+.brand-logo{display:block;width:220px;height:auto;max-width:100%}
+.footer-brand .brand-logo{width:190px}
+.quick-info,.hours-card{background:#111;border-color:#383131}
+.status-card,.info-card:not(:last-child),.hours-row{border-color:#383131}
+.status-icon,.info-icon,.hours-clock{background:#291416;color:#f24343}
+.status-card span:not(.status-icon),.info-card small,.hours-row span,.hours-note,.menu-note{color:#c4b9b7}
+.info-card b,.hours-row b,.footer>a:not(.brand){color:#f8f5f3}
+.nav-phone,.button-phone{background:#080808;border-color:#494040;color:#f8f5f3}
+.menu-toggle{border-color:#494040;background:#080808}
+.menu-toggle span{background:#f8f5f3}
+.mobile-nav{background:#111;border-color:#393131;color:#f8f5f3}
+.mobile-nav a:hover{background:#211819}
+.hero-stamp,.photo-note,.business-badge{background:#111;color:#fff}
+.menu-seafood{background:#251516}
+.menu-classic{background:#171515}
+.menu-sweet{background:#211618}
+.menu-card p{color:#f0e9e8}
+.card-illustration{display:none}
+.danish-flag-art{position:absolute;left:50%;top:44%;width:min(58%,190px);aspect-ratio:37/28;transform:translate(-50%,-50%) rotate(-4deg);border-radius:3px;background:#d31212;box-shadow:0 10px 0 #681016,0 17px 25px #0008;z-index:1}
+.danish-flag-art:before,.danish-flag-art:after{content:"";position:absolute;background:#fff}
+.danish-flag-art:before{left:31%;top:0;width:8%;height:100%}
+.danish-flag-art:after{left:0;top:46%;width:100%;height:9%}
+.story-copy p:not(.eyebrow),.visit-copy p:not(.eyebrow){color:#d3cac8}
+.hours-card{box-shadow:0 10px 25px #0008}
+.menu-tabs{background:#000e;border-color:#383131}
+.menu-tabs a{color:#e5dcda}
+.offer-section{background:#211516}
+.offer-section p:not(.eyebrow){color:#d0c4c2}
+.offer-prices>div{border-color:#4b3031}
+.dish-card{border-color:#383131}
+.dish-card p{color:#c8bdbb}
+.footer{border-color:#393131;color:#bdb3b1}
+.footer>a:not(.brand):hover{color:#ff5a5a}
+@media(max-width:620px){.brand-logo{width:178px}.footer-brand .brand-logo{width:180px}}
+
